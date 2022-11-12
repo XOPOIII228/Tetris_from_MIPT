@@ -2,6 +2,10 @@ import pygame
 import random, time, sys
 from pygame.locals import *
 
+pygame.mixer.init()
+pygame.mixer.music.load("zvuk-tetrisa-na-konsoli.mp3")
+pygame.mixer.music.play()
+
 fps = 30
 window_w, window_h = 800, 600       
 block = 20      
