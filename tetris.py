@@ -136,3 +136,4 @@ def main():
         runTetris() 
         pauseScreen()
         showText('Конец игры') 
+print('миша молодец')
